@@ -1,0 +1,201 @@
+body {
+  background-image: url("assets/img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.container {
+  background-color: rgba(3, 44, 88, 0.7);
+  /*   ^   ^   ^   ^ 
+       R   G   B   Alpha (0 = transparent, 1 = solid)
+  */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.intro-text{
+    font-family: "Cormorant SC", serif;
+    font-size: 25px;
+    font-weight: 250
+}
+
+/*first 2 goals */
+
+.gallagher-text{
+    font-family: "Cormorant SC", serif;
+    font-size: 45px;
+    font-weight: 250;
+    color: rgba(205, 171, 6);
+    overflow: hidden;
+    word-wrap: normal;
+    line-height: 1.5;
+}
+.gallagher-img {
+    float: left;
+    margin-left: -15%; /* spacing on right and bottom */
+    width: 45%; /* adjust size so text has space */
+}
+
+
+.gallagher-container{
+   width: 55%;  
+   margin-left: 10%;         /* container takes half the page width */
+    padding: 15px;        /* optional, for spacing inside */
+    float: left;          /* lets it sit on the left side */
+    box-sizing: border-box;
+    background-color: rgba(3, 44, 88, 0.7);
+}
+
+@media (max-width: 768px) {
+    .gallagher-container {
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px;
+    }
+    .gallagher-text {
+        font-size: 20px;  /* smaller on mobile */
+    }
+}
+
+/* united for the 2-2 */
+.bruno-text{
+    font-family: "Cormorant SC", serif;
+    font-size: 45px;
+    font-weight: 250;
+    color: rgba(205, 171, 6);
+    overflow: hidden;
+    word-wrap: normal;
+    line-height: 1.5;
+}
+.bruno-img {
+    float: right;
+    margin-right: -15%; /* spacing on right and bottom */
+    width: 45%; /* adjust size so text has space */
+}
+
+
+.bruno-container{
+   width: 55%;  
+   margin-right: 10%;         /* container takes half the page width */
+    padding: 15px;        /* optional, for spacing inside */
+    float: right;          /* lets it sit on the left side */
+    box-sizing: border-box;
+    background-color: rgba(3, 44, 88, 0.7);
+}
+
+@media (max-width: 768px) {
+    .bruno-container {
+        width: 90%;
+        margin-right: 5%;
+        padding: 10px;
+    }
+    .bruno-text {
+        font-size: 20px;  /* smaller on mobile */
+    }
+}
+
+/* united 3-2 */
+.doner-text{
+    font-family: "Cormorant SC", serif;
+    font-size: 45px;
+    font-weight: 250;
+    color: rgba(205, 171, 6);
+    overflow: hidden;
+    word-wrap: normal;
+    line-height: 1.5;
+}
+.doner-img {
+    float: left;
+    margin-left: -15%; /* spacing on right and bottom */
+    width: 45%; /* adjust size so text has space */
+}
+
+
+.doner-container{
+   width: 55%;  
+   margin-left: 10%;         /* container takes half the page width */
+    padding: 15px;        /* optional, for spacing inside */
+    float: left;          /* lets it sit on the left side */
+    box-sizing: border-box;
+    background-color: rgba(3, 44, 88, 0.7);
+}
+
+@media (max-width: 768px) {
+    .doner-container {
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px;
+    }
+    .doner-text {
+        font-size: 20px;  /* smaller on mobile */
+    }
+}
+
+/*chelsea 3-3 */
+
+.cole-text{
+    font-family: "Cormorant SC", serif;
+    font-size: 45px;
+    font-weight: 250;
+    color: rgba(205, 171, 6);
+    overflow: hidden;
+    word-wrap: normal;
+    line-height: 1.5;
+}
+.cole-img {
+    float: right;
+    margin-right: -15%; /* spacing on right and bottom */
+    width: 45%; /* adjust size so text has space */
+}
+
+
+.cole-container{
+   width: 55%;  
+   margin-right: 10%;         /* container takes half the page width */
+    padding: 15px;        /* optional, for spacing inside */
+    float: right;          /* lets it sit on the left side */
+    box-sizing: border-box;
+    background-color: rgba(3, 44, 88, 0.7);
+}
+
+@media (max-width: 768px) {
+    .cole-container {
+        width: 90%;
+        margin-right: 5%;
+        padding: 10px;
+    }
+    .cole-text {
+        font-size: 20px;  /* smaller on mobile */
+    }
+}
+
+/*last goal */
+.madness-container {
+  background-color: rgba(3, 44, 88, 0.7);
+  /*   ^   ^   ^   ^ 
+       R   G   B   Alpha (0 = transparent, 1 = solid)
+  */
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 20%;
+}
+
+.madness-img {
+    float: top;
+    margin-top: -15%; /* spacing on right and bottom */
+    margin-left: 12%;
+    margin-right: 5%;
+    width: 75%; /* adjust size so text has space */
+}
+
+.madness-text{
+    font-family: "Cormorant SC", serif;
+    font-size: 25px;
+    font-weight: 250
+    
+}
